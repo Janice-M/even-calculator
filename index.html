@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Even Calculator</title>
+  </head>
+  <body>
+<h1>Calculator even</h1>
+    <script type="text/javascript">
+    var Calculator = function(number1, number2) {
+return number1 + number2;
+};
+var number1 = parseInt(prompt("Enter a number"));
+var number2 = parseFloat(prompt("Enter another number"));
+var result = Calculator(number1, number2)
+alert(result);
+
+if ( result % 2 == 0) {
+	alert('Even Number');
+}else{
+	alert('Odd Number');
+}
+
+    </script>
+  </body>
+</html>
